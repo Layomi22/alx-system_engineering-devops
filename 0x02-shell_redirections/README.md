@@ -1,2 +1,1 @@
 shell basics command
-d
