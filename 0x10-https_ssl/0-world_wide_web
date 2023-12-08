@@ -12,7 +12,7 @@
 
 # if [ "$#" == 1 ]
 # then
-#   domain_information "$1" "www"
+#   domain_information "$1" "www.holberton.online"
 #   domain_information "$1" "lb-01"
 #   domain_information "$1" "web-01"
 #   domain_information "$1" "web-02"
@@ -22,7 +22,7 @@
 # fi
 #-- To be evaluated --
 
-subdomains_all=( "www" "lb-01" "web-01" "web-02" )
+subdomains_all=( "www.holberton.online" "lb-01" "web-01" "web-02" )
 
 runDig () {
     subdomain=$1
